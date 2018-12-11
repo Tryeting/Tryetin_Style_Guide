@@ -20,7 +20,7 @@ private static void test()
     Console.WriteLine(temp);    //ローカル変数tempが定義されていないから「10」と出力される。
 }
 ```
-- `Case3：グローバルでは「_」をつけて定義して、それぞれ出力
+- Case3：グローバルでは「_」をつけて定義して、それぞれ出力
 ```C#
 private static int _temp = 10;  //グローバル変数と
 private static void test()
